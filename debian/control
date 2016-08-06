@@ -1,0 +1,20 @@
+Source: sonic-sai-vm
+Section: net
+Priority: optional
+Maintainer: Dell <support@dell.com>
+Build-Depends:
+ debhelper (>= 9), autotools-dev, libsonic-logging-dev, libsonic-common-dev, sonic-sai-api-dev, libsonic-db-sql-dev, libsonic-sai-common-utils-dev
+Standards-Version: 1.0.1
+
+Package: libsonic-sai-vm1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: SONiC SAI VM - shared library
+
+Package: libsonic-sai-vm-dev
+Section: libdevel
+Architecture: any
+Depends:
+ ${shlibs:Depends}, ${misc:Depends}, libsonic-sai-vm1 (= ${binary:Version})
+Description: SONiC SAI VM - development files
+
