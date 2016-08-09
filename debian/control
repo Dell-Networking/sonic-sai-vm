@@ -5,6 +5,8 @@ Maintainer: Dell <support@dell.com>
 Build-Depends:
  debhelper (>= 9), autotools-dev, libsonic-logging-dev, libsonic-common-dev, sonic-sai-api-dev, libsonic-db-sql-dev, libsonic-sai-common-utils-dev
 Standards-Version: 1.0.1
+Vcs-Browser: https://github.com/dell-networking/sonic-sai-vm
+Vcs-Git: https://github.com/dell-networking/sonic-sai-vm.git
 
 Package: libsonic-sai-vm1
 Architecture: any
