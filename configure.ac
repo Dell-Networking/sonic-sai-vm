@@ -5,6 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT([sai-vm],[1.0.1],[sonicproject@gmail.com])
 AM_INIT_AUTOMAKE([subdir-objects])
 AC_CONFIG_SRCDIR([src])
+AC_CONFIG_MACRO_DIRS([m4])
 AC_CHECK_HEADERS([libxml/parser.h])
 
 # Checks for programs.
