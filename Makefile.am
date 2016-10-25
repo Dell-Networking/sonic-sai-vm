@@ -1,3 +1,5 @@
+ACLOCAL_AMFLAGS=-I m4
+
 data_dbdir = $(sysconfdir)/sonic
 data_db_DATA = cfg/sai_vm_db.cfg \
 cfg/sai-db/create_sai_acl_table.sql        cfg/sai-db/drop_sai_acl_table.sql \
