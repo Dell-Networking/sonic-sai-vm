@@ -1,9 +1,7 @@
-sonic-sai-vm
-----------------------
+# sonic-sai-vm
 This repo contains all switch abstraction interface (SAI) public API implementation used by the Dell SAI implementation for virtual machine (VM). This repo contains all public API implementation for SAI. The network adaptation service (NAS) component utilize this SAI API for operations of VM based network processor unit (NPU) simulation. 
 
 ## Build
---------
 See [sonic-nas-manifest](https://github.com/Azure/sonic-nas-manifest) for more information on common build tools.
 
 ### Build requirements
